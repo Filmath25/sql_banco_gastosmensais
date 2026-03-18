@@ -1,0 +1,34 @@
+### SQL Server - Arquivos de Dados e Backup (NUNCA enviar ao GitHub) ###
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.trn
+*.dbc
+*.dbmdl
+*.jfm
+
+### Visual Studio / SSDT / SSMS (Arquivos de Projeto e Temporários) ###
+.vs/
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+*.sqlproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.ssmssln
+*.ssms_project
+
+### Arquivos de Configuração e Segredos (Segurança) ###
+*.env
+*.config
+*.publishsettings
+secrets.json
+
+### Outros Arquivos Temporários ###
+*.log
+*.tmp
+.DS_Store
